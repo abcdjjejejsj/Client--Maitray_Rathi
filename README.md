@@ -24,21 +24,20 @@ This project was created as part of a development evaluation test.
 
 ## 📂 Project Structure
 
+```
 Client--Maitray_Rathi/
 │
-├── backend/ → Express API server
-│ ├── index.js
-│ ├── package.json
+├── backend/            → Express API server
+│   ├── index.js
+│   ├── package.json
 │
-├── frontend/ → React App
-│ ├── src/
-│ ├── public/
-│ ├── package.json
+├── frontend/           → React App
+│   ├── src/
+│   ├── public/
+│   ├── package.json
 │
-└── README.md → Project documentation
-
-yaml
-Copy code
+└── README.md           → Project documentation
+```
 
 ---
 
@@ -49,60 +48,69 @@ Copy code
 ```bash
 git clone https://github.com/your-username/Client--Maitray_Rathi.git
 cd Client--Maitray_Rathi
-🖥️ Backend Setup (Node + Express)
-bash
-Copy code
+```
+
+---
+
+## 🖥️ Backend Setup (Node + Express)
+
+```bash
 cd backend
 npm install
 npm start
+```
+
 Backend runs at:
 
 👉 http://localhost:5000
 
 API Endpoint:
 
-sql
-Copy code
+```
 GET /api/search?q=<keyword>
+```
+
 Example:
 
-bash
-Copy code
+```
 http://localhost:5000/api/search?q=bail
-💻 Frontend Setup (React)
+```
+
+---
+
+## 💻 Frontend Setup (React)
+
 Open a new terminal:
 
-bash
-Copy code
+```bash
 cd frontend
 npm install
 npm start
+```
+
 Frontend runs at:
 
 👉 http://localhost:3000
 
-🔍 Features Implemented
-✔ Keyword-based case search
+---
 
-✔ Frontend ↔ Backend API communication
+## 🔍 Features Implemented
 
-✔ Loading animation while fetching
+- ✔ Keyword-based case search  
+- ✔ Frontend ↔ Backend API communication  
+- ✔ Loading animation while fetching  
+- ✔ Search button disabled during fetch  
+- ✔ Error handling  
+- ✔ Clean card UI (title, citation, snippet)  
+- ✔ Responsive and simple layout  
+- ✔ No UI frameworks  
+- ✔ Clear maintainable code  
 
-✔ Search button disabled during fetch
+---
 
-✔ Error handling
+## 🧪 Example API Response
 
-✔ Clean card UI (title, citation, snippet)
-
-✔ Responsive and simple layout
-
-✔ No UI frameworks
-
-✔ Clear maintainable code
-
-🧪 Example API Response
-json
-Copy code
+```json
 {
   "results": [
     {
@@ -113,23 +121,26 @@ Copy code
     }
   ]
 }
-🛠 How It Works
-User enters a keyword
+```
 
-Frontend sends request: GET /api/search?q=bail
+---
 
-Backend filters mock data
+## 🛠 How It Works
 
-Returns JSON response
+1. User enters a keyword  
+2. Frontend sends request: `GET /api/search?q=bail`  
+3. Backend filters mock data  
+4. Returns JSON response  
+5. Frontend displays results in card format  
+6. Shows loading spinner while fetching  
 
-Frontend displays results in card format
+---
 
-Shows loading spinner while fetching
+## 👨‍💻 Developer
 
-👨‍💻 Developer
-Vaibhav Bharat Salve
-3rd Year Computer Engineering
-MERN Stack Developer | Aspiring SDE Intern
+**Vaibhav Bharat Salve**  
+3rd Year Computer Engineering  
+MERN Stack Developer | Aspiring SDE Intern  
 
-GitHub: https://github.com/abcdjjejejsj
-Portfolio: https://developervaibhav.vercel.app
+GitHub: https://github.com/abcdjjejejsj  
+Portfolio: https://developervaibhav.vercel.app  
