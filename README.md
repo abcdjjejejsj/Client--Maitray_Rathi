@@ -116,14 +116,6 @@ Frontend displays case cards
 
 Loading spinner appears during fetch
 
-🎯 Bonus Features
-
-✔ Loading spinner
-✔ Disabled button during fetch
-✔ Polished UI
-✔ Error messages
-✔ Clean code formatting
-✔ Professional README
 
 👨‍💻 Developer
 
@@ -131,14 +123,7 @@ Vaibhav Bharat Salve
 3rd Year Computer Engineering
 MERN Stack Developer | Aspiring SDE Intern
 
-GitHub: https://github.com/vaibhavsalve2106
+GitHub: https://github.com/abcdjjejejsj
 
 Portfolio: https://developervaibhav.vercel.app
 
-📮 Submission
-
-This repository includes:
-✔ Frontend
-✔ Backend
-✔ README
-✔ Required search functionality
